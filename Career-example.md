@@ -1,82 +1,147 @@
 # career-goal
 
 # 요구사항
-- [ ] KYS(Known Your Self)를 작성한다.
-    - [ ] Key Strength 를 작성한다.
-    - [ ] Read.me 를 작성한다.
-    - [ ] Goal을 작성한다.
-- [ ] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
-    - [ ] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
-    - [ ] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
-    - [ ] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
-    - [ ] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
-    - [ ] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
+- [x] KYS(Known Your Self)를 작성한다.
+    - [x] Key Strength 를 작성한다.
+    - [x] Read.me 를 작성한다.
+    - [x] Goal을 작성한다.
+- [x] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
+    - [x] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
+    - [x] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
+    - [x] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
+    - [x] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
+    - [x] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
 
+---
+# 이름
+- 김신영
 
-# 예시
-## KYS 작성
-### Key Strength
-- 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다. 
-- ex: 
-    - Java Backend
-    - Spring/JPA
-    - Security programming (Spring security, JWT...)
-    - Fintech
-    - SDM(Software Developer Manager)
-### Read.me 작성
-- Key Strength로 표현된 keyword를 가지고 본인을 소개하는 3~5줄 정도의 Read.me를 작성해 본다.
-- ex
-    - 토스 간편결제 서비스와 라인에서 태국, 대만, 인도네시아 인터넷 뱅킹을 개발 하였습니다. 
-    - java를 기반한 Spring framewor와 Spring boot, JPA그리고 JWT, Spring security 같은 보안 모듈을 활용하여 핀테크서비스를 개발 하였고 최근에는 팀장으로 개발자 20여명의 팀을 이끌면서 간편결제 시스템을 운영 하고 있습니다. 
+# KYS
+> Known Your Self
 
-### Goal 설정
-- 작성된 read.me로 현재의 자신을 객관적으로 살펴 보고 현실적으로 본인이 되고자하는 개발자로서의 목표를 2~3개 잡아본다.
-- ex
-    - 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
-    - 은행과 동일하거나 그 이상의 신뢰성을 바탕으로 금융거래를 할 수 있는 Fintech 서비스를 만들고 안정적으로 운영할 수 있는 서비스의 시스템을 설계 하고 구현하도록 리딩 하는 개발리더.
+## Key Strength
+- Java 8, 11, 17
+- SpringFramework / SpringBoot 3.1.2
+- JPA
+- JUnit5, MockMVC, Rest Assured, Mockito, TestContainers
+- Blockchain, Ethereum (Smart Contract), Hyperledger
+- Docker, Kubernetes, Helm Chart
+- Experience operating Linux and Ubuntu servers
+- Experience in conducting algorithm lectures
+
+## Read.me
+- Java, SpringBoot 기반 쏘카 세차 관리 시스템 개발 테크리더로 개발자 3명과 함께 레거시 시스템을 운영, 개선, 리팩터링 하고 있습니다.
+- 스프린트 플랜/회고, 데일리 스크럼 진행, 코드 리뷰 등을 통한 팀 업무 프로세스를 개선하고 팀원들의 활동을 유도하고 있습니다.
+- 운영팀과의 유비쿼터스 언어를 맞추고, 요구사항을 정확하게 소통하여 업무 편의성을 제공하고, 쏘카의 세차 비용을 감소시키는 걸 목표로 하고 있습니다.
+
+## Goal
+- 개발팀 테크 리드로써 운영팀과 사업팀에서 새로운 사업방향이나 개선사항에 대한 요구 사항을 최대한 빠르고 정확하게 배포할 수 있도록 주도하겠습니다.
+- 레거시 시스템, 새로운 도메인에 대해서도 빠르게 파악하고 적응하여, 요구사항과 상황에 적합한 아키텍처를 설계하고 구현을 리드하는 개발자
+- 대규모 트래픽이 들어오는 서비스를 운영 및 개발 하고, 서비스 안정성과 효율성을 제공하는 개발자가 되겠습니다.
+
 ## Gap 분석
 ### Goal
-- 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
+- 레거시 시스템, 새로운 도메인에 대해서도 빠르게 파악하고 적응하여, 요구사항과 상황에 적합한 아키텍처를 설계하고 구현을 리드하는 개발자
 ### 필요역량
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
-    - JWT
-    - Spring security
-    - RSA
+- 기본 개발 역량
+  - Java 개발역량
+  - Spring Boot 역량
+  - JPA 역량
+- gRPC 
+  - 내부 서비스 성능 향상을 위한 gRPC 도입
+- Spring Security
+  - JWT
+  - OAuth2
+  - Authentication
+  - Authorization
+- Spring Batch
+  - Chunk 방식 / Tasklet 방식
+- Redis, Memcached
+  - 조회 성능 개선을 위한 캐시처리
 - 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - bulk transaction 처리
-    - 비동기(Future같은?) 처리
-    - DB Transaction 역량 : isolation, mySQL
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 핵사고날, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - 분산 Cloud 아키택처
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+  - Bulk Transaction
+  - Transaction Propagation, Isolation
+  - 마이크로서비스 분산 Transaction
+  - SAGA Pattern
+- 성능/부하 테스트를 통한 최적화
+  - Jmeter, Ngrinder, Locust
+  - Connection Pool 설정 최적화
+  - Thread Pool 설정 최적화
+  - CPU, Memory 설정 최적화
+- 도메인 기반 설계
+  - 헥사고날 아키텍처
+  - Multi-Module Project
+- 빠른 주기의 개발, 테스트, 배포 환경
+  - TDD
+    - End to End Test
+    - Unit Test
+    - Mockito
+    - TestContainers
+  - CI/CD 설정
+    - Docker, Kubernetes
+    - Github Action
+    - ArgoCD
+    - Helm Chart
+    - Terraform
+- APM을 활용한 모니터링: Datadog, EFK, AWS Cloud Watch, PinPoint
+  
 ### 나의 상태
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
-    - Spring security
+- 기본 개발 역량
+  - Java 개발역량
+  - Spring Boot 역량
+  - JPA 역량
+- Spring Security
+  - JWT
 - 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - 비동기 처리
-    - DB Transaction 역량
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+  - Transaction Propagation, Isolation
+- 빠른 주기의 개발, 테스트, 배포 환경
+  - TDD
+    - Unit Test
+    - Mockito
+    - TestContainers
+  - CI/CD 설정
+    - Docker, Kubernetes
+    - Github Action
+    - ArgoCD
+    - Helm Chart
+  
 ### Gap 분석
-- RSA 학습 심화 : 지금 이론정도만 알고 있음
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction
-- 핵사고날 아키택쳐 스터디
-- 분산 cloud 아키택쳐 스터
+- 성능/부하 테스트를 통한 최적화
+  - SI 프로젝트에서 간단하게 스크립트만 작성해본 경험만 있음
+- Spring Security를 통한 통합 인증 서비스 구현
+  - OAuth2
+  - 개인적으로 사이드 프로젝트 경험만 있음
+- Spring Batch를 통한 대용량 데이터 배치 처리
+- APM을 활용한 모니터링: Datadog, EFK, AWS Cloud Watch, PinPoint
+- DDD 스터디
+- 헥사고날 아키텍처
+- MSA 아키텍처 패턴 스터디
+- CDK 스터디 : Terraform
+- AWS SAA 자격증 벼락치기
+
 ### To-Do List
-- RSA 학습 심화 : HTTPS 암호화에 대한 학습 및 JWT 암호화 학습
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction 을 기존 batch에 적용
-- 핵사고날 아키택쳐 스터디 : 외부 스터디 및 강의 학습 후 지금 주문 서버에 적용
-- 분산 cloud 아키택쳐 스터 : AWS region별 분산 cloud 설정
+- 성능/부하 테스트를 통한 최적화
+  - 현재 개발 서버에 성능/부하 테스트 수행
+  - 결과 분석
+  - 개선사항 파악 / 피드백 요청
+- Spring Security 스터디 
+  - Spring Security를 통한 통합 인증 서비스 구현
+    - 자회사, 협력사, 용역업체 통합 인증 구현
+    - KeyCloak 통합 인증 적용
+  - 보안팀이 요청한 보안 결함성 대응
+- Spring Batch 스터디
+  - Spring Batch를 통한 대용량 데이터 배치 처리
+- APM을 활용한 모니터링 적용
+  - Datadog 모니터 메트릭, 대시보드, 알림 설정 적용
+    - 다른 팀 적용한 걸 참고
+    - LiveOps팀 문의
+- 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
+- CDK 스터디 : Terraform
+  - 현재 팀이 담당하는 AWS 인프라 리소스에 대해 CDK 작성
+- AWS SAA 자격증 벼락치기
+- DDD 스터디
+  - 헥사고날 아키텍처
+- MSA 아키텍처 패턴 스터디
 
 
 
