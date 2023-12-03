@@ -68,6 +68,11 @@
     - 모니터링 기술 : Grafana, datadog, cloudwatch
 - 비용 절감 및 빠른 배포
   - K8S 기반의 아키텍쳐 설계
+- 리더쉽
+  - 팀의 구성원이 많아도 잘 이끌수 있는 능력
+  - Back-End Part 이외에 다양한 Part로 이루어진 팀을 이끌기 위하여 다른 분야 관련 용어 및 커뮤니케이션 능력 향상
+  - 타인의 모범이 될 수 있는 Hard, Soft Skill
+  - 함께 성장할 수 있는 환경
 
 ### 나의 상태
 - Java/Kotin 개발 역량
@@ -83,9 +88,15 @@
     - SPOF 방지를 위한 아키택쳐 : 시스템 이중화
     - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, staging 환경 설정
     - 모니터링 기술 : Grafana, datadog, cloudwatch
+- 리더쉽
+  - 타인의 말을 최대한 잘 들어주는 커뮤니케이션 능력
+  - Back-End Part에 대해서 내가 알고 있는 것들을 최대한 활용하여 다른 사람들을 도와줌
 
 ### Gap 분석
-- Kotlin 학습 심화 : 개발에는 문제가 없으나 좀 더 Kotlin을 잘 사용 하도록 학습
+- Kotlin 학습 심화 : Kotlin을 더 Kotlin스럽게 사용할 수 있는 역량 
+  - Kotlin 디자인 패턴 적용
+  - 함수형 프로그래밍
+  - 코루틴
 - 대용량 Transaction 및 Traffic을 처리 할 수 있는 역량
   - DB Transaction 역량: 
     - DB Isolation Level을 환경 및 상황에 맞게 설정 할 수 있는 능력
@@ -102,6 +113,11 @@
     - 모니터링 기술 : Grafana, datadog, cloudwatch 같은 모니터링 툴을 사용하는 능력 향상
 - 비용 절감 및 빠른 배포
     - K8S 관련 다양한 경험 및 관련 지식 습득
+- 리더쉽
+  - 소수의 구성원으로 이루어진 Part 경험
+  - 다양한 Part로 이루어진 팀을 이끌기 위하여 다른 분야 관련 용어 지식 부족
+  - 타인의 모범이 될 수 있는 Hard, Soft Skill
+  - 함께 성장할 수 있는 환경 갖추는 능력 부족
 
 ### To-Do List
 - Kotlin 학습 심화
@@ -111,19 +127,32 @@
 - 대용량 Transaction 및 Traffic을 처리 할 수 있는 역량
     - DB Transaction 역량:
         - DB Isolation Level을 실무에 맞게 적용할 수 있는 능력 향상
-        - 보상 Trasaction 관련 아키텍쳐 설계 및 개발 능력 향상
+          - Mysql 관련 성능, 최적화등 다양한 서적을 통하여 학습 후 실제 DB에 적용 하며 분석한다.  
+        - 보상 Trasaction 관련 Best Practice 찾고 학습
+          - 실무에서 보상 Transaction이 필요할 경우 하나씩 적용 및 분석 하여 장단점 파악
     - 비동기 처리 - Reactive Programing, r2dbc, noSql 스터디
     - 이벤트 기반 아키텍쳐 구현
         - Kafka를 비롯한 다양한 이벤트 기반 아키텍쳐 스터디
       - DB 관리 및 설계 능력
           - Partisioning, Sharding등 다양한 DB 설계 방법 스터디
       - 부하테스트 및 결과를 기반으로 한 적정한 아키텍쳐 설계
-        - 성능테스트 분석 능력 향상
+        - 성능 테스트 결과 및 트래픽, 부하 관련 학습을 하여 서버 및 네트워크 스펙에 따른 아키텍쳐 설계 능력 향상
 - 시스템 안정성이 높은 아키택쳐 구성
     - SPOF 방지를 위한 아키택쳐 : MSA, DDD, 핵사고날과 같은 다양한 아키텍쳐 스터디
     - 모니터링 기술 : Grafana, datadog, cloudwatch 같은 모니터링 툴을 사용하는 환경 구축 능력 스터디
+      - 모니터링 기술 관련 서적, 강의를 들으며 각 모니터링 기술의 장단점 파악 및 하나씩 실무에 적용
+      - 대용량 트래픽을 다루는 회사들의 경험담 공유 글을 찾아 읽으며 분석
 - 비용 절감 및 빠른 배포
     - K8S 스터디
+- 리더쉽
+  - 리더쉽 관련 책이나 글 읽기
+  - 리딩에 대한 다양한 경험 접하기(글, 영상 ...)
+  - 다양한 Part로 이루어진 팀을 이끌기 위하여 다른 분야 관련 용어 및 업무 프로세스 학습
+    - Front-End Part 부터 학습 하며 시야 넓히기
+    - 기획, 디자인, PM등 각 역할을 담당 하는 담당자 들의 업무 프로세스 파악
+  - 타인의 모범이 될 수 있는 Hard, Soft Skill
+    - 꾸준한 학습을 통한 Hard Skill 향상
+    - 함께 성장할 수 있는 방향 및 방법에 대하여 모색 및 적용
 
 
 
