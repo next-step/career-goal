@@ -1,84 +1,67 @@
 # career-goal
 
 # 요구사항
-- [ ] KYS(Known Your Self)를 작성한다.
-    - [ ] Key Strength 를 작성한다.
-    - [ ] Read.me 를 작성한다.
-    - [ ] Goal을 작성한다.
-- [ ] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
-    - [ ] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
-    - [ ] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
-    - [ ] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
-    - [ ] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
-    - [ ] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
+- [x] KYS(Known Your Self)를 작성한다.
+    - [x] Key Strength 를 작성한다.
+    - [x] Read.me 를 작성한다.
+    - [x] Goal을 작성한다.
+- [x] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
+    - [x] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
+    - [x] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
+    - [x] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
+    - [x] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
+    - [x] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
 
-
-# 예시
 ## 이름
-장진달
-## KYS 작성
+박다정
+## KYS
 ### Key Strength
-- 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다. 
-- ex: 
-    - Java Backend
-    - Spring/JPA
-    - Security programming (Spring security, JWT...)
-    - Fintech
-    - SDM(Software Developer Manager)
+- Nodejs Backend
+- express framework
+- Functional programming
+
 ### Read.me 작성
-- Key Strength로 표현된 keyword를 가지고 본인을 소개하는 3~5줄 정도의 Read.me를 작성해 본다.
-- ex
-    - 토스 간편결제 서비스와 라인에서 태국, 대만, 인도네시아 인터넷 뱅킹을 개발 하였습니다. 
-    - java를 기반한 Spring framewor와 Spring boot, JPA그리고 JWT, Spring security 같은 보안 모듈을 활용하여 핀테크서비스를 개발 하였고 최근에는 팀장으로 개발자 20여명의 팀을 이끌면서 간편결제 시스템을 운영 하고 있습니다. 
+- nodejs 기반 express framework와 mysql을 이용하여 커머스에서 사용할 상품 API를 개발하였습니다
+- 함수형 프로그래밍을 이용하여 사이드 이펙트를 최대한 줄이는 개발을 하고 있습니다.
 
 ### Goal 설정
-- 작성된 read.me로 현재의 자신을 객관적으로 살펴 보고 현실적으로 본인이 되고자하는 개발자로서의 목표를 2~3개 잡아본다.
-- ex
-    - 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
-    - 은행과 동일하거나 그 이상의 신뢰성을 바탕으로 금융거래를 할 수 있는 Fintech 서비스를 만들고 안정적으로 운영할 수 있는 서비스의 시스템을 설계 하고 구현하도록 리딩 하는 개발리더.
+- 커머스 서비스에 특성에 맞게 QPS(초당 쿼리 처리 갯수) 3000개를 감당할 수 있는 분산 시스템을 설계하고 개발할 수 있는 개발자
+- private cloud 서비스를 설계하고 만들 수 있는 개발자
+
 ## Gap 분석
-### Goal
-- 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
+
 ### 필요역량
-- Java 개발역량
+- Java 역량
 - Spring Boot 역량
 - JPA 역량
-- Security
-    - JWT
-    - Spring security
-    - RSA
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - bulk transaction 처리
-    - 비동기(Future같은?) 처리
-    - DB Transaction 역량 : isolation, mySQL
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 핵사고날, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - 분산 Cloud 아키택처
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+- OpenStack 가상화 환경에 대한 이해 및 OpenStack API를 활용하여 개발/운영 경험
+- hypervisor, container 역량
+- Kubernetes를 활용한 서비스 개발/운영 경험
+- Prometheus, Thanos, Tekton, ArgoCD, GitOps, Helm 등 클라우드 관련 기술을 활용하여 개발/운영 경험
+- 대규모 웹 서비스 환경에서 이슈 분석, 문제 해결, 성능 최적화 경험
+- CI/CD를 통한 테스트 및 자동화 경험
+- PaaS 서비스 개발 경험
+
 ### 나의 상태
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
-    - Spring security
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - 비동기 처리
-    - DB Transaction 역량
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+- Nodejs 개발역량
+- jest를 이용한 테스트 코드 작성
+- 함수형 프로그래밍 개발
+
 ### Gap 분석
-- RSA 학습 심화 : 지금 이론정도만 알고 있음
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction
-- 핵사고날 아키택쳐 스터디
-- 분산 cloud 아키택쳐 스터
+- Java 개발 능력 : 문법만 조금 아는 상태
+- OOP에 대한 이해: 개념만 아는 상태
+- JPA 역량: nodejs ORM으로 개발을 했으나 JPA는 없음
+- OpenStack : 이름만 들어본 정도 
+- hypervisor, container 역량: 관련된 소프트웨어(virtualbox, docker)를 사용해본 정도
+- Kubernetes를 활용한 서비스 개발/운영 경험: 없음 
+- Prometheus, Thanos, Tekton, ArgoCD, GitOps, Helm 등 클라우드 관련 기술을 활용하여 개발/운영 경험 : 없음
+- 대규모 웹 서비스 환경에서 이슈 분석, 문제 해결, 성능 최적화 경험 : 없음
+- CI/CD를 통한 테스트 및 자동화 경험: 사이드 프로젝트로 구현한 경험이 있음
+- PaaS 서비스 개발 경험: 없음
+
 ### To-Do List
-- RSA 학습 심화 : HTTPS 암호화에 대한 학습 및 JWT 암호화 학습
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction 을 기존 batch에 적용
-- 핵사고날 아키택쳐 스터디 : 외부 스터디 및 강의 학습 후 지금 주문 서버에 적용
-- 분산 cloud 아키택쳐 스터 : AWS region별 분산 cloud 설정
-
-
-
+- Java와 JPA 이용하여 사이드 프로젝트 출시
+- 가상화, 컨테이너 기술 스터디
+- openStack 스터디
+- 도커, 쿠버네티스 기술 스터디
+- 부하 테스트 실습(부하를 발생시키고 해결하는 과정)
