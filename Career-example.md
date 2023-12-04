@@ -1,84 +1,102 @@
 # career-goal
 
 # 요구사항
-- [ ] KYS(Known Your Self)를 작성한다.
-    - [ ] Key Strength 를 작성한다.
-    - [ ] Read.me 를 작성한다.
-    - [ ] Goal을 작성한다.
-- [ ] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
-    - [ ] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
-    - [ ] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
-    - [ ] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
-    - [ ] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
-    - [ ] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
+- [x] KYS(Known Your Self)를 작성한다.
+    - [x] Key Strength 를 작성한다.
+    - [x] Read.me 를 작성한다.
+    - [x] Goal을 작성한다.
+- [x] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
+    - [x] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
+    - [x] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
+    - [x] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
+    - [x] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
+    - [x] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
 
 
-# 예시
 ## 이름
-장진달
+서한샘
 ## KYS 작성
 ### Key Strength
-- 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다. 
-- ex: 
-    - Java Backend
-    - Spring/JPA
-    - Security programming (Spring security, JWT...)
-    - Fintech
-    - SDM(Software Developer Manager)
-### Read.me 작성
+- 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다.
+  - Java Backend
+  - Spring
+  - JPA
+  - TDD
+  - StartUp
+
 - Key Strength로 표현된 keyword를 가지고 본인을 소개하는 3~5줄 정도의 Read.me를 작성해 본다.
-- ex
-    - 토스 간편결제 서비스와 라인에서 태국, 대만, 인도네시아 인터넷 뱅킹을 개발 하였습니다. 
-    - java를 기반한 Spring framewor와 Spring boot, JPA그리고 JWT, Spring security 같은 보안 모듈을 활용하여 핀테크서비스를 개발 하였고 최근에는 팀장으로 개발자 20여명의 팀을 이끌면서 간편결제 시스템을 운영 하고 있습니다. 
+  - 두번의 스타트업에 첫번째 개발자로 합류해 웹서비스를 개발/배포/운영까지 전부 맡아서 이끌었습니다.
+  - 현재는 보험중계 플랫폼에서 Java/Spring 기반으로 백엔드 개발을 담당하고 있습니다.
+  - 현재는 '장기체류' 상품을 판매하기 위한 기능개발과 타 보험사와 연계한 임베디드 보험 관련 개발도 진행중입니다.
 
 ### Goal 설정
 - 작성된 read.me로 현재의 자신을 객관적으로 살펴 보고 현실적으로 본인이 되고자하는 개발자로서의 목표를 2~3개 잡아본다.
-- ex
-    - 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
-    - 은행과 동일하거나 그 이상의 신뢰성을 바탕으로 금융거래를 할 수 있는 Fintech 서비스를 만들고 안정적으로 운영할 수 있는 서비스의 시스템을 설계 하고 구현하도록 리딩 하는 개발리더.
+  - 서비스의 상황에 적합한 적정기술을 선택 할수 있는 개발자
+  - 레거시 시스템을 마이크로 서비스까지 단계적으로 잘 설계하고 이관할 수 있도록 리딩 하는 개발자
+  - 일 10만건 트래픽을 효율적으로 처리할 수 있는 서버 및 데이터베이스를 설계할 수 있는 개발자
+  - 어떤 도메인을 접하게 되더라도 잘 이해하고 서비스 개발에 적용할 수 있는 개발자
+  
 ## Gap 분석
 ### Goal
-- 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
+- 일 10만건 트래픽을 효율적으로 처리할 수 있는 서버 및 데이터베이스를 설계할 수 있는 개발자
 ### 필요역량
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
+- 백엔드 개발 역량
+  - Java 개발역량
+  - Spring Boot 역량
+  - JPA 역량
+  - TDD 역량
 - Security
-    - JWT
-    - Spring security
-    - RSA
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - bulk transaction 처리
-    - 비동기(Future같은?) 처리
-    - DB Transaction 역량 : isolation, mySQL
+  - JWT
+  - Spring security
+- 대용량 트랜잭션 처리 역량
+  - DB Transaction
+  - Bulk Transaction
+  - 비동기 처리
+  - Spring Batch
+- 데이터 관리 역량
+  - RDB, MySQL
+- 캐시 사용 역량
+  - Redis
 - 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 핵사고날, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - 분산 Cloud 아키택처
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+  - MSA
+  - 핵사고날
+  
 ### 나의 상태
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
+- 백엔드 개발 역량
+  - Java 개발역량 [중]
+  - Spring Boot 역량 [중]
+  - JPA 역량 [중]
+  - TDD 역량 [하]
 - Security
-    - Spring security
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - 비동기 처리
-    - DB Transaction 역량
+  - JWT [하]
+  - Spring security [하]
+- 대용량 트랜잭션 처리 역량
+  - DB Transaction [하]
+  - Bulk Transaction [하]
+  - 비동기 처리 [하]
+  - Spring Batch [하]
+- 데이터 관리 역량
+  - RDB, MySQL, Redis [하]
 - 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+  - MSA [하]
+  - 핵사고날 [하]
+
 ### Gap 분석
-- RSA 학습 심화 : 지금 이론정도만 알고 있음
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction
-- 핵사고날 아키택쳐 스터디
-- 분산 cloud 아키택쳐 스터
+- 백엔드 개발 역량
+  전반적으로 실무에서 사용하고 있지만 깊이 있게 학습하지 않아 기본기가 부족함
+  TDD는 학습을 했지만 실무에서 아직 적용하지 못하고 있어 적용과 훈련이 필요함
+- Security
+  서비스 내에 사용은 하고 있지만 이해도가 낮음
+- 대용량 트랜잭션 처리 역량
+  역시 배치가 필요한 기능 개발할때 잠깐 공부하고 적용했을뿐 깊이 있게 학습하지 못햇음
+- 데이터 관리 역량
+  기본적인 db 설계와 쿼리 실행계획등을 보고 슬로우 쿼리를 개선한 경험은 있지만 깊이가 부족함
+- 시스템 안정성이 높은 아키택쳐 구성
+  핵사고날 아키텍쳐에 대한 학습한 경험만 있고 MAS에 대한 이해는 매우 낮음
+
 ### To-Do List
-- RSA 학습 심화 : HTTPS 암호화에 대한 학습 및 JWT 암호화 학습
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction 을 기존 batch에 적용
-- 핵사고날 아키택쳐 스터디 : 외부 스터디 및 강의 학습 후 지금 주문 서버에 적용
-- 분산 cloud 아키택쳐 스터 : AWS region별 분산 cloud 설정
-
-
-
+- java, spring, jpa, tdd 등 기본기가 탄탄해야 된다고 생각해서 기존에 학습했던 강의, 책등을 실무와 병행하며 계속 학습하고 레거시 코드의 개선점을 찾아 개선하기
+- 스프링 시큐리티 인 액션 읽고 Spring Security에 대한 기초 역량 쌓기
+- 현재 서비스 내에 Spring Batch가 전혀 없는데 푸쉬 알림 기능 개발할때 학습하고 적용해보기
+- 정적으로 프론트에 내려주는 데이터에 캐싱적용해서 db 부하 개선하기
+- 임베디드 보험 서비스 서버 개발할때 핵사고날 아키텍처와 tdd기반으로 작업하기
