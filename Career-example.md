@@ -1,16 +1,16 @@
 # career-goal
 
 # 요구사항
-- [ ] KYS(Known Your Self)를 작성한다.
-    - [ ] Key Strength 를 작성한다.
-    - [ ] Read.me 를 작성한다.
-    - [ ] Goal을 작성한다.
-- [ ] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
-    - [ ] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
-    - [ ] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
-    - [ ] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
-    - [ ] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
-    - [ ] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
+- [x] KYS(Known Your Self)를 작성한다.
+    - [x] Key Strength 를 작성한다.
+    - [x] Read.me 를 작성한다.
+    - [x] Goal을 작성한다.
+- [x] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
+    - [x] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
+    - [x] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
+    - [x] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
+    - [x] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
+    - [x] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
 
 
 # 예시
@@ -18,67 +18,114 @@
 장진달
 ## KYS 작성
 ### Key Strength
-- 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다. 
-- ex: 
-    - Java Backend
+- 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다.
+    - Java/Kotlin Backend
     - Spring/JPA
-    - Security programming (Spring security, JWT...)
-    - Fintech
-    - SDM(Software Developer Manager)
+    - GIS
+    - Backed Developer
 ### Read.me 작성
 - Key Strength로 표현된 keyword를 가지고 본인을 소개하는 3~5줄 정도의 Read.me를 작성해 본다.
-- ex
-    - 토스 간편결제 서비스와 라인에서 태국, 대만, 인도네시아 인터넷 뱅킹을 개발 하였습니다. 
-    - java를 기반한 Spring framewor와 Spring boot, JPA그리고 JWT, Spring security 같은 보안 모듈을 활용하여 핀테크서비스를 개발 하였고 최근에는 팀장으로 개발자 20여명의 팀을 이끌면서 간편결제 시스템을 운영 하고 있습니다. 
-
+    - Java와 Kotlin을 사용하여 Spring Framework 기반의 확장 가능한 웹 서비스를 설계, 개발 및 운영하는 경험을 가지고 있습니다. 
+    - 현재는 운영중인 서비스를 요구사항에 따라 유연하게 변경할 수 있도록 개선하고자 TestCode를 도입하고 문서를 체계화하는 작업을 진행하고 있습니다.
+    또한 1월에 알림서비스를 배포하기 위해 준비하고 있습니다.
 ### Goal 설정
 - 작성된 read.me로 현재의 자신을 객관적으로 살펴 보고 현실적으로 본인이 되고자하는 개발자로서의 목표를 2~3개 잡아본다.
-- ex
-    - 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
-    - 은행과 동일하거나 그 이상의 신뢰성을 바탕으로 금융거래를 할 수 있는 Fintech 서비스를 만들고 안정적으로 운영할 수 있는 서비스의 시스템을 설계 하고 구현하도록 리딩 하는 개발리더.
+    - 일 10만건 트래픽을 효율적으로 처리할 수 있는 고성능 서버 및 데이터베이스를 설계하고 개발하는 능력을 갖추기
+    - 소규모 팀을 효과적으로 이끌며, 각 팀원의 역량을 최대한 활용할 수 있는 일 분배를 잘하는 팀 리더가 되기
+    - 같이 일하면서 자신의 업무이외에 다른 사람의 업무를 도와줄 수 있고, 업무의 반복 작업을 자동화해서 환경을 개선하는 개발자
 ## Gap 분석
 ### Goal
-- 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
+- 일 10만건 트래픽을 효율적으로 처리할 수 있는 고성능 서버 및 데이터베이스를 설계하고 개발하는 능력을 갖추기
 ### 필요역량
-- Java 개발역량
+- Java 개발 역량
+    - Java 언어에 대한 깊은 이해와 실용적인 경험
+    - JVM(Java Virtual Machine)과 Java 생태계에 대한 지식
+- Kotlin 개발 역량
+    - Kotlin 언어에 대한 이해 및 개발 경험
+    - Java와 Kotlin의 상호 운용성에 대한 지식
+- 컴퓨터 과학 (CS) 기본 지식
+    - 데이터 구조, 알고리즘, 시스템 설계 등 기본적인 CS 지식
+- 네트워크 지식
+    - TCP/IP, HTTP/HTTPS, 웹 아키텍처 등 네트워크 프로토콜 및 원리에 대한 이해
+- 운영체제 지식
+    - 운영체제의 작동 방식, 프로세스 관리, 메모리 관리 등에 대한 이해
 - Spring Boot 역량
+    - Spring 생태계와 주요 개념(의존성 주입, MVC 패턴 등)에 대한 이해
 - JPA 역량
-- Security
-    - JWT
-    - Spring security
-    - RSA
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - bulk transaction 처리
-    - 비동기(Future같은?) 처리
-    - DB Transaction 역량 : isolation, mySQL
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 핵사고날, 시스템 이중화
+- JVM 기반 서버 프로파일링 지식
+    - JVM 모니터링 도구 사용 능력
+    - 메모리 누수, 성능 병목 현상 탐지 및 해결 방법에 대한 이해
+- 세션 관리 및 로드 밸런싱 지식
+    - Redis를 통한 중간 InMemory 개발 역량
+    - 세션 Replication 지식
+    - 로드 밸런싱 기술 및 L4, L7 로드 밸런서 설정
+- 데이터베이스 분산 처리 역량
+    - 데이터베이스 sharding 및 파티셔닝 지식
+    - 읽기/쓰기 DB 분산 처리 구현
+    - read, write DB 분산 처리 개발 역량
+- 대용량 트랜잭션 처리 역량
+    - 대규모 트랜잭션 처리 전략(예: 비동기 처리, 벌크 트랜잭션)
+    - 데이터베이스 트랜잭션 관리 및 최적화
+- 시스템 안정성 및 아키텍처 구성
+    - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
     - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
     - 분산 Cloud 아키택처
     - Traffic 처리 : Circuit break, A/B Test, Traffic control
+
 ### 나의 상태
-- Java 개발역량
+- Java 개발 역량
+    - Java 언어에 실무적인 경험
+    - JVM(Java Virtual Machine)과 Java 생태계에 대한 지식
+- Kotlin 개발 역량
+    - Kotlin 언어에 대한 이해 및 개발 경험
+    - Java와 Kotlin의 상호 운용성에 대한 지식
+- 컴퓨터 과학 (CS) 기본 지식
+    - 데이터 구조 기본적인 CS 지식
+- 네트워크 지식
+    - TCP/IP, HTTP/HTTPS에 대한 이해
 - Spring Boot 역량
+    - Spring 생태계와 주요 개념(의존성 주입, MVC 패턴 등)에 대한 이해
 - JPA 역량
-- Security
-    - Spring security
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - 비동기 처리
-    - DB Transaction 역량
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+- 데이터베이스 분산 처리 역량
+    - 데이터베이스 파티셔닝 지식
+- 세션 관리 및 로드 밸런싱 지식
+  - 세션 Replication 지식
+
 ### Gap 분석
-- RSA 학습 심화 : 지금 이론정도만 알고 있음
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction
-- 핵사고날 아키택쳐 스터디
-- 분산 cloud 아키택쳐 스터
+- 컴퓨터 과학 (CS) 기본 지식
+    - 알고리즘, 시스템 설계 질문에 대답할 수 있는 정도로 공부
+- 네트워크 지식
+    - 웹 아키텍처 등 네트워크 프로토콜와 Http 1.0와 2.0의 차이 공부
+- 운영체제 지식
+  - 운영체제의 작동 방식, 프로세스 관리, 메모리 관리 CS 공부
+- JVM 기반 서버 프로파일링 지식
+  - JVM 모니터링 도구 사용 능력
+  - 메모리 누수, 성능 병목 현상 탐지 경험
+- 세션 관리 및 로드 밸런싱 지식
+  - Redis를 통한 중간 InMemory 을 통한 동시성 처리 경험
+  - 로드 밸런싱 기술 및 L4, L7 로드 밸런서 설정
+- 데이터베이스 분산 처리 역량
+  - 데이터베이스 sharding 및 파티셔닝 지식
+  - read, write DB 분산 처리 개발 경험
+- 대용량 트랜잭션 처리 역량
+  - 대규모 트랜잭션 처리 전략(예: 비동기 처리, 벌크 트랜잭션)
+  - 데이터베이스 트랜잭션 관리 및 최적화
+- 시스템 안정성 및 아키텍처 구성
+  - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
+  - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
+  - 분산 Cloud 아키택처
+  - Traffic 처리 : Circuit break, A/B Test, Traffic control
+
 ### To-Do List
-- RSA 학습 심화 : HTTPS 암호화에 대한 학습 및 JWT 암호화 학습
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction 을 기존 batch에 적용
-- 핵사고날 아키택쳐 스터디 : 외부 스터디 및 강의 학습 후 지금 주문 서버에 적용
-- 분산 cloud 아키택쳐 스터 : AWS region별 분산 cloud 설정
+- 컴퓨터 과학 (CS) 기본 지식: 방통대 지원하기!, 알고리즘 스터디, 시스템 설계 책 찾기
+- 네트워크 지식: 웹 아키텍처 등 네트워크 프로토콜와 Http 1.0와 2.0 스터디
+- 운영체제 지식
+  - 운영체제 인프런 강의/ 공룡책 다 읽기
+- JVM 기반 서버 프로파일링 지식: 알림 서버 JVM 모니터링 사용하기
+- 세션 관리 및 로드 밸런싱 지식: 운영 서비스 Docker 적용하면서 다중 서버 처리 학습하며 기술 적용해보기
+- 데이터베이스 분산 처리 역량: 데이터베이스 분산 기술 스터디
+- 대용량 트랜잭션 처리 역량: 사내 대규모 트랜잭션 스터디
+- 시스템 안정성 및 아키텍처 구성: 시스템 이중화 학습, 현재 적용된 Cloud 아키텍처 분석
+  시스템 이중화 학습, 현재 적용된 Cloud 아키텍처 분석
 
-
-
+  무중단 배포 처리공부, CI/CD 공부하기
