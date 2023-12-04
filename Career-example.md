@@ -1,84 +1,108 @@
 # career-goal
 
 # 요구사항
-- [ ] KYS(Known Your Self)를 작성한다.
-    - [ ] Key Strength 를 작성한다.
-    - [ ] Read.me 를 작성한다.
-    - [ ] Goal을 작성한다.
-- [ ] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
-    - [ ] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
-    - [ ] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
-    - [ ] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
-    - [ ] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
-    - [ ] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
 
+- [x] KYS(Known Your Self)를 작성한다.
+    - [x] Key Strength 를 작성한다.
+    - [x] Read.me 를 작성한다.
+    - [x] Goal을 작성한다.
+- [x] 되고싶은 개발자(Goal)가 되기 위한 gap 분석을 한다..
+    - [x] Goal 작성 : 위에서 완성된 Goal중 원하는 하나를 선택한다.
+    - [x] 필요역량 작성 : 되고싶은 개발자(Goal)가 되기 위해 필요 역량을 작성한다.
+    - [x] 나의 상태 작성 : 지금 나는 어떤 역량을 가지고 있는지 작성한다.
+    - [x] Gap 분석 : 되고싶은 개발자(Goal)가 되기 위해 가지고 있는 역량과 앞으로 습득해야할 역량을 작성한다.
+    - [x] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
 
-# 예시
+---
+
 ## 이름
-장진달
+
+유재영
+
 ## KYS 작성
+
 ### Key Strength
-- 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다. 
-- ex: 
-    - Java Backend
-    - Spring/JPA
-    - Security programming (Spring security, JWT...)
-    - Fintech
-    - SDM(Software Developer Manager)
+
+- Java Backend (Java 8 / 17)
+- Spring Framework, Spring Batch
+- Sql query (Mysql or Oracle)
+- Game platform, In-game revenue statistics for settlement
+
 ### Read.me 작성
-- Key Strength로 표현된 keyword를 가지고 본인을 소개하는 3~5줄 정도의 Read.me를 작성해 본다.
-- ex
-    - 토스 간편결제 서비스와 라인에서 태국, 대만, 인도네시아 인터넷 뱅킹을 개발 하였습니다. 
-    - java를 기반한 Spring framewor와 Spring boot, JPA그리고 JWT, Spring security 같은 보안 모듈을 활용하여 핀테크서비스를 개발 하였고 최근에는 팀장으로 개발자 20여명의 팀을 이끌면서 간편결제 시스템을 운영 하고 있습니다. 
+
+- Spring Framework 기반 DAU 20만 정도의 포커 게임 플랫폼 운영 및 개발 중이며, Game Server 와의 Integration 을 통해 발생되는 원천데이터를 타 시스템에 가공 및 전달하는 하고있습니다.
+- Spring Batch 를 이용하여 GS에서 발생된 원천데이터를 aggregation 한 뒤 B2B, B2C 서버에 전달하여 정산을 하고 있습니다.
+- In-Game 내에서 사용되는 Rank 시스템이나, 비슷한 실력의 사람과 같이 칠 수 있게 해주는 매칭 시스템등과 기타 기능들을같이 서비스 하고 있습니다.
 
 ### Goal 설정
-- 작성된 read.me로 현재의 자신을 객관적으로 살펴 보고 현실적으로 본인이 되고자하는 개발자로서의 목표를 2~3개 잡아본다.
-- ex
-    - 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
-    - 은행과 동일하거나 그 이상의 신뢰성을 바탕으로 금융거래를 할 수 있는 Fintech 서비스를 만들고 안정적으로 운영할 수 있는 서비스의 시스템을 설계 하고 구현하도록 리딩 하는 개발리더.
+
+- 단기 목표로는 현재 운영하고 있는 레거시 시스템을 헥사고날 아키텍처로 변경하는 스터디를 진행
+- DAU 100만이 넘어가도 안정적 서비스로 운영할 수 있는 아키텍처로의 전환
+
 ## Gap 분석
+
 ### Goal
-- 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
+
+- 단기 목표로는 현재 운영하고 있는 레거시 시스템을 헥사고날 아키텍처로 변경하는 스터디를 진행
+    - 회사 메인 프로젝트를 변경하는걸 목표로 하고 있지만, 서비스 규모도 크고 조직이 워낙 보수적이라 아마도 변경되는걸 원치않을 듯 하여 개인적으로 변경해보고 싶음
+
 ### 필요역량
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
+
+- Hexagonal architecture 에 대한 이해
+    - Hexagonal architecture 를 설계, 구축할 수 있는 역량
+- Multi Module 분리 에 대한 이해
+- Java 및 Spring Boot 에 대한 역량
+- Security / Oauth2
+    - Spring security
+    - Oauth2.0
     - JWT
-    - Spring security
-    - RSA
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - bulk transaction 처리
-    - 비동기(Future같은?) 처리
-    - DB Transaction 역량 : isolation, mySQL
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 핵사고날, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - 분산 Cloud 아키택처
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+- Message Queue 에 대한 역량
+    - Kafka
+    - RedisMq
+- 이 기종간 RealTime 통신에 대한 Transaction 의 무결성 보장 (Game Server 나 타 Platform 통신에 대비해서 ..)
+    - Two Phase Commit
+    - Saga Pattern
+- 테스트 주도 개발
+    - Integration Test
+    - End to End Test
+    - Mocking
+
 ### 나의 상태
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
-    - Spring security
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - 비동기 처리
-    - DB Transaction 역량
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+
+- Java 및 Spring Boot 에 대한 역량
+- Message Queue 에 대한 역량
+    - RedisMq
+- 테스트 주도 개발
+    - Integration Test
+    - End to End Test
+
 ### Gap 분석
-- RSA 학습 심화 : 지금 이론정도만 알고 있음
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction
-- 핵사고날 아키택쳐 스터디
-- 분산 cloud 아키택쳐 스터
+
+- Hexagonal architecture 에 대한 이해
+    - 여러 Blog 와 책을 읽어 보았지만, 장점에 대한 이해도가 부족함.
+    - 스터디 및 개인 프로젝트를 진행.
+- Security / Oauth2
+    - Spring security
+        - 실무에서 써본 경험 있지만, 아직 이해도 부족.
+    - Oauth2.0
+        - 강의를 통해 스터디
+- MQ 에 대한 역량
+    - Kafka
+        - Consumer 는 실무에서 구현 해봄.
+- 이 기종간 RealTime 통신에 대한 Transaction 의 무결성 보장
+    - Two Phase Commit
+        - 이론만 알고있음.
+    - Saga Pattern
+        - 일종의 미들웨어가 필요하고, 이기종의 DB에서는 요 방법을 써야된다 정도로만 알고있음.
+
 ### To-Do List
-- RSA 학습 심화 : HTTPS 암호화에 대한 학습 및 JWT 암호화 학습
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction 을 기존 batch에 적용
-- 핵사고날 아키택쳐 스터디 : 외부 스터디 및 강의 학습 후 지금 주문 서버에 적용
-- 분산 cloud 아키택쳐 스터 : AWS region별 분산 cloud 설정
 
-
-
+- Hexagonal architecture 스터디
+    - 레거시 시스템 중 규모가 작은 프로젝트를 헥사고날 아키텍처로 개발하는 사내 스터디를 진행 후, 메인 프로젝트에 대해 점진적으로 적용.
+- Security / Oauth2 스터디
+    - Oauth2에 대한 강의를 완강 한 뒤 개인 프로젝트를 진행 후, Oauth2 가 적용되 있는 레거시 프로젝트를 변경.
+- Kafka 스터디
+    - Producer 는 내년쯤 실무에 적용해볼 기회가 생길 듯 하여, 스터디를 진행하며 구현 대비.
+- 이 기종간 RealTime 통신에 대한 Transaction 의 무결성 보장
+    - 이건 어떻게 해야 하는지 감이 잡히질 않아, 셔플 런치를 통해 타 팀의 팀장님께 자문을 구한 뒤, 그에 맞춰 준비할 예정.
+- 위 Goal 과 별개로 Webflux 를 이용한 리액티브 프로그래밍에 대한 스터디 예정.
