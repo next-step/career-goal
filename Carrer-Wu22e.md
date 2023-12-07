@@ -22,7 +22,7 @@
 
 ## Goal 작성
 - 응시자 동시 10만명에 대한 트래픽을 안정적으로 운영할 수 있는 아키텍처로 개발 및 운영
-- 순간 급증하는 트래픽에 대한 대응이 가능한 시스템 설계 능력
+- 순간적인 트래픽 급증에 대응하는 다양한 전략에 대한 이해와 구현 능력 갖추기
 - 상황에 맞는 해결책을 제시할 수 있는 개발자 (어떤 기술을 사용해서 어떻게 해결할 것인지와 같은 정답이 없는 상황에서 오버 엔지니어링 하지 않고 적절한 해결책을 제시하는 것. 또는 엔지니어링으로 풀지 않아도 되는 방법을 생각하고 제안하는 것.)
 
 
@@ -39,16 +39,19 @@
   - Bulk Transaction
   - 비동기 처리
   - Spring Batch 역량
+
 - 시스템 아키텍처 역량
   - AWS 클라우드 서비스 역량
   - 리눅스 역량
   - 분산 시스템 
-    - Database Sharing
+    - Database Sharding
     - Server Cluster Mode(Consistent Hashing)
+  - Circuit Break 도입 (https://spring.io/guides/gs/cloud-circuit-breaker/ or Resilience4)
 
 - 적절한 캐싱을 활용한 응답 시간 단축
   - Redis 
   - Cloud Front
+  - Akamai
 
 - 서비스 테스트 역량
   - TDD / ATDD 
@@ -84,10 +87,13 @@
     - Database Sharing [X]
     - Server Cluster Mode(Consistent Hashing) [X]
 
+  - Circuit Break 도입 (https://spring.io/guides/gs/cloud-circuit-breaker/ or Resilience4) [X]
+  
 - 적절한 캐싱을 활용한 응답 시간 단축
   - Redis [O]
   - Cloud Front [△]
-
+  - Akamai [△]
+  
 - 서비스 테스트 역량
   - TDD / ATDD [O]
   - 부하 테스트 (k6, locust) [O]
@@ -105,7 +111,7 @@
   
   
 ## Gap 분석
-- 자바 최적화, 비동기 기술에 대한 부족함이 있음. ex) Future, Syncronized
+- 자바 최적화, 비동기 기술에 대한 부족함이 있음. ex) Future, Syncronized, webflux, r2dbc
 - Spring Boot 를 다시 한번 정리해서 부족한 부분을 매꿀 필요가 있음. ex) Spring Bean Cycle
 - JPA Lock 처리에 대한 이해가 필요함.
 - 최근 Golang 을 특정 서비스에 적용하고 있는데, 숙련도가 부족함.
@@ -117,13 +123,16 @@
 - 다양한 서비스에 대한 경험 및 데이터기반 서비스 운영 경험이 적음.
 
 ## TO-DO List
-- 자바 심화 내용 학습
+- 자바 심화 내용 학습 (Future, Syncronized, webflux, r2dbc)
 - Spring Boot 필수 개념들 재정리
 - JPA Lock 원리 및 처리 방법 정리
 - Golang 동시성 처리 방법 학습
 - Bulk Transaction 을 사내의 비효율적인 부분에 적용하기
+- 급증하는 트래픽의 우회 방법 적용해보기 (Circuit Break)
 - 서비스에 직접 APM을 달아서 리눅스 기반 서비스 모니터링해보기
-- 프론트 엔드 동작원리 이해 & 클라우드 프론트 사용 사례 학습 및 사이드 프로젝트에 적용해보기
+- 서비스에서 CDN을 활용할 수 있는 곳을 찾아서 적용해보기 (akamai, cloud front)
+  - 프론트 엔드 동작원리 이해 & 클라우드 프론트 사용 사례 학습 및 사이드 프로젝트에 적용해보기
+
 - 매일 하루를 회고하며 그날 있었던 다른 사람과의 소통에서 나의 부족한 점을 찾아내고 어떻게 하면 좋았을지 생각하기
 - 사이드 프로젝트를 실제로 런칭해서 새로운 도메인에 대한 경험 및 운영해보기 
 
