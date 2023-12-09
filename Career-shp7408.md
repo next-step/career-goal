@@ -43,7 +43,8 @@
 
 - [신뢰할 수 있는 개발자 되기] 특정 프로젝트를 맡았을 때, 이 프로젝트를 완료하는 데 걸리는 일정을 산출할 수 있고, 이 일정에 맞추어 개발 완료할 수 있는 능력 가지기
     1. jira, confluence, notion, slack 등을 통해, 효율적으로 업무를 진행할 수 있는 능력 갖추기
-    2. 뿐만 아니라, 기술적으로 ( nodejs, nestjs, typescript, javascript, typeorm 등 ) 많은 경험을 통해, 업무에 필요한 일정 산출 정확도 높이기
+    2. Capacity, Velocity, Burn Down Chart 등을 통해, 일정 산출 정확도 높이기
+    3. 뿐만 아니라, 기술적으로 ( nodejs, nestjs, typescript, javascript, typeorm 등 ) 많은 경험을 통해, 업무에 필요한 일정 산출 정확도 높이기
 
 - [문제 해결력 갖추기] 특정 문제가 발생했을 때, 이 문제를 해결할 수 있는 능력 갖추기
     1. 모니터링 시스템 - Grafana, Prometheus, Sentry, ELK 등을 통해, 문제를 빠르게 파악하고, 이를 해결할 수 있는 능력 갖추기
@@ -64,7 +65,7 @@
 - Javascript & Typescript 역량
 - Database, Mysql, TypeORM 역량
 - jira, confluence, 애자일, 스크럼, slack 등을 통한 업무 효율성 갖추기
-- Grafana, Prometheus, Sentry, ELK 등을 통한 모니터링 시스템 구축 및 운영 경험
+- Grafana, Prometheus, Sentry, ELK 등을 통한 모니터링 시스템 사용 경험
 - 개발팀 내에서의 리더십 역량
 - 개발팀 외부와의 커뮤니케이션 역량
 - OOP, TDD, Clean Code, Refactoring, Design Pattern 등에 대한 이해 및 실무 경험
@@ -86,7 +87,6 @@
 - Javascript & Typescript 역량 : 현재 회사에서 Typescript 를 사용하고 있으나, Javascript & Typescript 에 대한 이론적인 지식이 부족합니다. 예를 들어, Javascript 의 Prototype, Closure, Event Loop, Promise, Async/Await, Typescript 의 Interface, Type, Generic, Decorator 등에 대한 이론적인 지식이 부족합니다.
 - Database, Mysql, TypeORM 역량 : 최근 스터디를 통해, Database 의 Index, Transaction, Lock, Mysql 의 InnoDB, MyISAM, 옵티마이저 등에 대한 이론적 지식을 공부하였으며, 직접 말로 설명할 수 있습니다. 하지만, TypeORM 의 Entity, Migration, Query Builder, Repository 등에 대한 이론적인 지식은 아직 부족합니다.
 - jira, confluence, 애자일, 스크럼, slack 등을 통한 업무 효율성 갖추기 : 이전 회사에서, jira, confluence, slack, 애자일, 스크럼 방법론을 사용한 경험은 있으나, 현재 회사에서는 사용하지 않고 있습니다. 하지만, 사내 업무 효율성을 높이기 위해, 기존에 사용하던 업무 툴 중 하나인, notion 의 sprint 템플릿을 활용하여, 애자일, 스크럼 방법론을 조금씩 도입하고 있습니다.
-- Grafana, Prometheus, Sentry, ELK 등을 통한 모니터링 시스템 구축 및 운영 경험 : 이전 회사에서는, 기본적인 로깅 시스템을 구축하여, 직접 로그 파일 관리 및 분석을 통해, 문제를 파악하고, 해결하는 경험은 있으나, Grafana, Prometheus, Sentry, ELK 등을 통한 모니터링 시스템 구축 및 운영 경험은 없습니다.
 - 개발팀 내에서의 리더십 역량 : 이전 회사에서는, 실시간 선박 데이터를 수집하여, 각 다른 서비스에 제공하는 프로젝트의 전체 아키텍쳐 설계 및 개발을 리딩한 경험이 있습니다. 현재 회사에서도, Tooning Board 신규 서비스를 Project Manager & 백엔드 개발자로서 개발하고 있습니다. 아직은 적은 팀원들과 함께 진행하고 있지만, 작은 성공 경험들을 모아서, 점점 더 큰 팀을 리딩할 수 있는 리더십 역량을 키우고 싶습니다.
 - 개발팀 외부와의 커뮤니케이션 역량 : 개발팀 내부 뿐만 아니라, 마케팅 팀, 기획팀, 디자인 팀, 경영진과의 커뮤니케이션 역량을 더 키우고 싶습니다. 이 역량이 있어야, 레거시인 메인 서비스를 리팩토링할 수 있는 기회를 가질 수 있기 때문입니다. 현재는, 작은 성공 경험들을 모아서, 타 팀에게 신뢰를 줄 수 있는 개발자가 되려고 하고 있습니다.
 - OOP, TDD, Clean Code, Refactoring, Design Pattern, DDD 등에 대한 이해 및 실무 경험 : 모두 좋은 개념이고, 안정적인 서비스를 위해 필요한 개념인 것은 알지만, 현재 회사에서는 이 모든 것들이 팀원과 경영진의 동의를 얻어야 적용할 수 있는 상황입니다. 이런 상황에서, 곧바로 전체적으로 적용하기 보다, 핵심 개념들을 작은 부분부터 먼저 적용하며, 팀원들이 몸소 느끼고, 경영진에게 보여주며, 점진적으로 전체적으로 적용할 수 있는 기회를 잡기 위해 노력하고 있습니다.
@@ -99,6 +99,7 @@
 - [ ] Nodejs 싱글 스레드 기반의 비동기 프로그래밍, 이벤트 기반 프로그래밍에 대한 이론적인 지식을 공부한다.
     - [ ] 모던 자바스크립트 Deep Dive 의 42장 비동기 프로그래밍, 45장 프로미스, 46장 async/await 를 공부한다.
     - [ ] Nodejs 싱글 스레드 기반의 비동기 프로그래밍, 이벤트 기반 프로그래밍에 대해 타인에게 설명할 수 있도록 한다.
+    - [ ] 현재 회사 코드를 profiling 하여, 어떤 부분이 느린지, 어떤 부분이 빠른지 파악한다. 그리고 이 내용을 정리하여, 팀원들과 공유한다.
 
 - [ ] Javascript & Typescript 에 대한 이해를 높인다.
     - [ ] Deep Dive 보다는, 조금 더 쉽고, 얇은 코어 자바스크립트 책을 1회독 한다.
@@ -108,6 +109,7 @@
 - [ ] Nestjs Backend 개발 역량을 키운다.
     - [ ] Nestjs 로 배우는 백엔드 프로그래밍 책을 1회독 한다.
     - [ ] Nestjs 공식 문서를 1회독 한다.
-    - [ ] Nestjs 를 사용한, "댕냥이 앱"을 1차 완성 및 배포한다.
+    - [ ] Nestjs 를 사용한, 사이드 프로젝트인 "댕냥이 앱"을 1차 완성 및 배포한다.
+    - [ ] 현재 회사 코드를 MVC, DI, IoC, AOP 등의 개념을 적극 활용하여, 리팩토링한다. ( Nestjs 를 사용하지 않는 상태라, 점진적으로 리팩토링 진행 )
 
 
