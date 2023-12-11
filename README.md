@@ -13,72 +13,85 @@
     - [ ] To-Do List : 되고싶은 개발자(Goal)가 되기 위해 어떤 것들이 필요할지 작성한다.
 
 
-# 예시
 ## 이름
-장진달
+최대욱
 ## KYS 작성
 ### Key Strength
 - 개발자로서 본인을 대표할 수 있는 keyword를 3~5개 정도 작성하여 본다. 
-- ex: 
     - Java Backend
     - Spring/JPA
-    - Security programming (Spring security, JWT...)
-    - Fintech
-    - SDM(Software Developer Manager)
+    - TDD
+    - Data (Spark, Livy, Ozone)
+
 ### Read.me 작성
-- Key Strength로 표현된 keyword를 가지고 본인을 소개하는 3~5줄 정도의 Read.me를 작성해 본다.
-- ex
-    - 토스 간편결제 서비스와 라인에서 태국, 대만, 인도네시아 인터넷 뱅킹을 개발 하였습니다. 
-    - java를 기반한 Spring framewor와 Spring boot, JPA그리고 JWT, Spring security 같은 보안 모듈을 활용하여 핀테크서비스를 개발 하였고 최근에는 팀장으로 개발자 20여명의 팀을 이끌면서 간편결제 시스템을 운영 하고 있습니다. 
+- On-Premise, Kubernetes 환경에서 Spark Cluster를 구축하며 Livy를 적용하며 데이터 분석 플랫폼을 개발하고 있습니다.
+- 테스트 하기 좋은 구조를 고민하며, 테스트 코드 성능 개선을 통해 보다 나은 유지 보수성을 만듭니다.
 
 ### Goal 설정
-- 작성된 read.me로 현재의 자신을 객관적으로 살펴 보고 현실적으로 본인이 되고자하는 개발자로서의 목표를 2~3개 잡아본다.
-- ex
-    - 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
-    - 은행과 동일하거나 그 이상의 신뢰성을 바탕으로 금융거래를 할 수 있는 Fintech 서비스를 만들고 안정적으로 운영할 수 있는 서비스의 시스템을 설계 하고 구현하도록 리딩 하는 개발리더.
+- 커머스 도메인을 이해하고 일 1,000만 건 이상의 거래가 되는 서비스의 시스템 운영할 수 있는 개발자
+
 ## Gap 분석
 ### Goal
-- 일 거래액 100억이 되는 Fintech 서비스 시스템을 uptime 99.99% 이상의 안정적인 운영을 할 수 있는 아키택처로 개발/운영.
+- 커머스 도메인을 이해하고 일 1,000만 건 이상의 거래가 되는 서비스의 시스템 운영할 수 있는 개발자
+
 ### 필요역량
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
-    - JWT
-    - Spring security
-    - RSA
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - bulk transaction 처리
-    - 비동기(Future같은?) 처리
-    - DB Transaction 역량 : isolation, mySQL
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 핵사고날, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - 분산 Cloud 아키택처
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+- JAVA
+    - 비동기 및 병렬 프로그래밍
+    - JVM Profiling
+- OOP, TDD, DDD, Clean Code
+- 대용량 및 대규모 설계
+    - MSA
+    - Kubernetes
+    - Monitoring
+    - 분산 처리
+    - MQ
+    - Caching
+- DB
+    - RDB
+    - NoSQL
+    - Transaction
+
 ### 나의 상태
-- Java 개발역량
-- Spring Boot 역량
-- JPA 역량
-- Security
-    - Spring security
-- 대용량 Transaction을 무결성을 지키면서 처리 할 수 있는 역량
-    - 비동기 처리
-    - DB Transaction 역량
-- 시스템 안정성이 높은 아키택쳐 구성
-    - SPOF 방지를 위한 아키택쳐 : MSA, 시스템 이중화
-    - 안전한 배포를 위한 기술 : Blue/green deploy, canary deploy, stage환경 설정
-    - Traffic 처리 : Circuit break, A/B Test, Traffic control
+- JAVA
+    - 기본적인 요소만 알고 Effective Java 에서의 Generic 등 이해하지 못함
+    - 비동기 및 병렬 프로그래밍 관련 학습 필요
+- Spark, Livy, Ozone
+    - k8s 환경에서 hdfs과 Spark를 사용
+- k8s
+    - Docker 운용 및 레이어 정도 이해
+    - 기존 helm 차트 이해하는 정도로 깊은 지식이 없음
+- MySQL
+    - RealMySQL 읽고 조금 이해한 정도
+- OOP, TDD, DDD
+    - 모두 책 한 권씩은 읽었으나, 실무에서의 정확한 적용은 어려운 정도
+    - TDD의 경우 Classcist를 지향하며 테스트 코드의 유지/보수성을 고려
+    - DDD Event 관련 방식에 이해도가 부족함.
+
 ### Gap 분석
-- RSA 학습 심화 : 지금 이론정도만 알고 있음
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction
-- 핵사고날 아키택쳐 스터디
-- 분산 cloud 아키택쳐 스터
+- JAVA 비동기 / 병렬 프로그래밍
+- JVM Profiling / Monitoring
+- MQ / Event-Driven
+- Kubernetes에 대한 지식
+- 대규모 설계에 대한 이해도
+- DB 분산 처리 및 Transaction 이해
+
 ### To-Do List
-- RSA 학습 심화 : HTTPS 암호화에 대한 학습 및 JWT 암호화 학습
-- Bulk Transaction 처리 : 대용량 처리를 위한 spring batch chunk transaction 을 기존 batch에 적용
-- 핵사고날 아키택쳐 스터디 : 외부 스터디 및 강의 학습 후 지금 주문 서버에 적용
-- 분산 cloud 아키택쳐 스터 : AWS region별 분산 cloud 설정
-
-
+- WebFlux
+- JMeter / nGrinder
+    - 부하 테스트를 통하여 성능 최적화하기
+- 레거시 코드에서 TDD를 적용하며 리팩토링 할 수 있는 역량 키우기
+    - Refactoring Kata Practice
+- OOP에 대한 지식
+    - 오브젝트 회독 / 객체지향의 사실과 오해 읽어 보기
+- DDD
+    - Multi-Module
+    - CQRS 적용해보기
+- Redis / Kafka or Pulsar 학습
+    - 실무에서 Spark Streaming 과 함께 Kafka 써보기..?
+    - Kafka 도입하면서 이벤트 드리븐을 고려해보기
+- 대용량 및 대규모 설계
+    - 대규모 관련 책 읽기
+    - SAGA Pattern 학습
+    - Grafana 학습
+    - LAMBDA vs KAPPA Architecture
 
